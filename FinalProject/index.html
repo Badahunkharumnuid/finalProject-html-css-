@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bada's kitchen</title>
+    <link rel="stylesheet" href="menustyle.css">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+.main, div  {
+    animation: slide-up 1s ease-in-out;
+}
+
+img {
+    max-width: 300%; /* Ensure the image doesn't exceed its container */
+    border: 1px solid #ddd; /* Add a border around the image */
+    border-radius: 5px; /* Rounded corners for the image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+/* Styling for the paragraph */
+main {
+    font-size: 25px; /* Set the font size */
+    line-height: 2; /* Adjust line height for readability */
+    margin: 20px 0; /* Add some spacing around the paragraph */
+    text-align:center; /* Justify the text for better readability */
+
+  
+}
+
+.container {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 50px; /* Footer height */
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+        nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #ffcc00;
+}
+
+        </style>
+</head>
+<body>
+        <header>
+            <h1>Bada's Kitchen</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>     
+                </ul>
+            </nav>
+        </header>
+<main id="main content">
+    <div>
+        <img src="bada'skitchen2.jpg" alt="Bada's Kitchen" width="100%">
+       <br> <p>Welcome to Bada's Kitchen! We serve delicious meals made with love. Explore our menu and enjoy a delightful dining experience.</p>
+    </div>
+    <div>
+        <img src="" alt="">
+        </div>
+    </main>
+    
+    <footer>
+        <center>
+        <p>©2024 Bada's Kitchen</p>
+        </center>
+    </footer>
+</body>
+</html>

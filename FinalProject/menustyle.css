@@ -1,0 +1,91 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image: url(background2.jpg);
+}
+
+
+/* Styling for the image */
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    border: 2px solid #ddd; /* Add a border around the image */
+    border-radius: 8px; /* Rounded corners for the image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.skip-link {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+/* Bring it into view when focused */
+.skip-link:focus {
+    top: 0;
+    left: 0;
+    background-color: #e77e23;
+    color: #fff;
+    padding: 8px;
+    transition: transform 0.3s;
+}
+
+
+
+.container {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 50px; 
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #ffcc00;
+}
+
+.search-bar {
+    margin: 20px;
+    text-align: center;
+}
+/* Style a box with padding, border, and margin */
+.box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #333;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
